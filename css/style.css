@@ -1,18 +1,27 @@
 /*selektor znacznika */
-p{
-    color:red;
-    font-size:30px;
-}
-/* selektor id */
-#paragraf{
-    color:blue;
-}
-/* selektor klasy */
-.jeden{
-    color:lawngreen;
+
+p {
+    color: red;
+    font-size: 30px;
 }
 
-a,span,div{
+
+/* selektor id */
+
+#paragraf {
+    color: blue;
+}
+
+
+/* selektor klasy */
+
+.jeden {
+    color: lawngreen;
+}
+
+a,
+span,
+div {
     background: black;
-    color:chocolate;
+    color: chocolate;
 }
