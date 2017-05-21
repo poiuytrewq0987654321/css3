@@ -49,6 +49,16 @@ ul>li:not(.list-last){
 }
 
 /* selektor kolejnego elementu pochodnego */
+/*użycie "n" daje możliwość stylowania różnych wybranych selektorów np. 3n+1 - styluje selektory 1,4,7,10,13 itd.
+zamiast liczby albo wzoru można użyć poniższych zapisów:
+odd - nieparzyste 
+even - parzyste
+*/
+ul>ol:nth-child(2n+0){
+    color:deeppink;
+}
+
+
 
 
 
