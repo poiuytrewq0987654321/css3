@@ -43,9 +43,12 @@ h4 ~ p{
     color:chartreuse;
 }
 
+/* selektor wykluczający - nadaje kolor z ostylowania wszystkim elementom potomnym poza elementami ktore maja klase .list-item2 */
+ul>li:not(.list-last){
+    color:cornflowerblue;
+}
 
-
-
+/* selektor kolejnego elementu pochodnego */
 
 
 
