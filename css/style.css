@@ -2,7 +2,6 @@
 
 p {
     color: red;
-    font-size: 30px;
 }
 
 
@@ -16,7 +15,7 @@ p {
 /* selektor klasy */
 
 .jeden {
-    color: lawngreen;
+    color: darkgreen;
 }
 
 a,
@@ -38,3 +37,16 @@ div a{
 h2+h3{
     color:orangered;
 }
+
+/* selektor rodzeństwa */
+h4 ~ p{
+    color:chartreuse;
+}
+
+
+
+
+
+
+
+
