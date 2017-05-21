@@ -32,3 +32,9 @@ li > a{
 div a{
     color:mediumvioletred;
 }
+
+/* selektor bliskigo rodzeństwa czyli stylowanie dotyczy kolejnego tylko następnego selektora przypadającego po opisanym selektorze w stylowaniu na tym samym poziomie */
+
+h2+h3{
+    color:orangered;
+}
