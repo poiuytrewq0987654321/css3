@@ -1,9 +1,9 @@
-body {
-    background: green;
-}
-
+/*selektor znacznika */
 p{
     color:red;
     font-size:30px;
-    background:yellow;
+}
+/* selektor id */
+#paragraf{
+    color:blue;
 }
