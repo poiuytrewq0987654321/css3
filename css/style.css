@@ -22,6 +22,10 @@ p {
 a,
 span,
 div {
-    background: black;
     color: chocolate;
+}
+/* selektor bezpośredniego elementu potomnego */
+li > a{
+    color:darkcyan;
+    background:cyan;
 }
