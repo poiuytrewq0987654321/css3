@@ -11,3 +11,8 @@ p{
 .jeden{
     color:lawngreen;
 }
+
+a,span,div{
+    background: black;
+    color:chocolate;
+}
