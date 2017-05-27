@@ -34,9 +34,11 @@ a{
 img{
     float:right;
 }
+/*
 p:nth-child(3){
     clear:both;
 }
+*/
 
 img#kotek{
     height: 100px;
@@ -101,4 +103,18 @@ div{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+#overflow p{
+    width:25%;
+    float:left;
+    height:75px;
+    overflow: auto;
+    
+}
+
+#overflow p:nth-child(even){
+background-color: aqua;
+}
+#overflow p:nth-child(odd){
+background-color: blueviolet;
 }
