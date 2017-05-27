@@ -71,3 +71,23 @@ li:nth-child(even){
 li:nth-child(even):hover{
     background-color:darkblue;
 }
+
+input[title]{
+    border:10px solid black;
+}
+
+input[type="text"]{
+    background-color: crimson;
+}
+input[title="tytul"]{
+    background-color: grey;
+}
+
+input[title~="inny"]{
+    background-color: cyan;
+}
+
+
+
+
+
