@@ -1,0 +1,14 @@
+*{
+    background-color: burlywood;
+}
+p{
+    background-color: blueviolet;
+}
+
+/* pseudo selektory */
+
+#par1::before,#par1::after{
+    content:'*';
+    color:#fff;
+    font-size:1.5em;
+}
