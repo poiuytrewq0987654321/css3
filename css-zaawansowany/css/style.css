@@ -12,3 +12,11 @@ p{
     color:#fff;
     font-size:1.5em;
 }
+
+#par2::first-letter{
+    font-size:3em;
+}
+
+#par2::first-line{
+    color:yellow;
+}
