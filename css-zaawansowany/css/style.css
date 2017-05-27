@@ -36,3 +36,27 @@ a:active{
 input:focus{
     background-color: darkcyan; 
 }
+
+p:target{
+    background-color: blanchedalmond;
+}
+
+p:lang(en){
+    background-color: chartreuse;
+}
+
+li:first-child{
+    font-size:3em;
+}
+
+li:last-child{
+    font-size:3em;
+}
+p span:only-child{
+    text-decoration: line-through;
+}
+div:empty{
+    width:200px;
+    height: 600px;
+    background-color: black;
+}
