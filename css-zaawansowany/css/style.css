@@ -20,3 +20,19 @@ p{
 #par2::first-line{
     color:yellow;
 }
+
+a:visited{
+    color:darkgreen;
+}
+a:hover{
+    color:dodgerblue;
+    font-size:30px;
+}
+a:active{
+    color:fuchsia;
+
+}
+/* gdy klikniemy w inpucie, tlo inputa sie zmieni na wskazany ponizej kolor */
+input:focus{
+    background-color: darkcyan; 
+}
