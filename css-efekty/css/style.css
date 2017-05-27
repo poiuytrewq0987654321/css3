@@ -1,3 +1,4 @@
+/*
 p{
     display: inline;
     font-size:2em;
@@ -15,6 +16,7 @@ p:nth-child(even){
 p:nth-child(1n+3){
     display: block;
 }
+*/
 
 a{
     width:100px;
@@ -29,3 +31,76 @@ a{
     line-height: 100px;
 }
 
+img{
+    float:right;
+}
+p:nth-child(3){
+    clear:both;
+}
+
+img#kotek{
+    height: 100px;
+    width:100px;
+    float:none;
+    margin-bottom:50px;
+    display: inline-block;
+    
+    transition: all 5s linear 0.5s, height 2s linear 0.5s;
+}
+img#kotek:hover{
+    height: 200px;
+    width: 200px;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+#blok1{
+    background-color: red;
+    transition: all 1s linear 0.2s, height 1s linear 0.2s;
+}
+#blok2{
+    background-color: blue;
+    transition: all 1s linear 0.2s, width 1s linear 0.2s;
+}
+#blok3{
+    background-color: green;
+    transition: all 1s linear 0.2s;   
+}
+
+#blok1:hover{
+    height:300px;
+    
+}
+#blok2:hover{
+    width:300px;
+    
+}
+#blok3:hover{
+    height:300px;
+    width:300px;
+    transform:rotate(45deg);
+}
+
+#background{
+    background-color: cyan;
+    height:50vh;
+    background-image: url(../reactor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#background2{
+    background-color: cyan;
+    height:50vh;
+    background-image: url(../reactor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
