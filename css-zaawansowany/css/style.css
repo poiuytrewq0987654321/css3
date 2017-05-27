@@ -73,7 +73,7 @@ li:nth-child(even):hover{
 }
 
 input[title]{
-    border:10px solid black;
+    border:5px solid black;
 }
 
 input[type="text"]{
@@ -86,7 +86,9 @@ input[title="tytul"]{
 input[title~="inny"]{
     background-color: cyan;
 }
-
+input[title*="pod"]{
+    background-color: darkorange;
+}
 
 
 
