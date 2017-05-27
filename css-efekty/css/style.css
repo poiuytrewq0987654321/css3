@@ -88,16 +88,14 @@ div{
 }
 
 #background{
-    background-color: cyan;
     height:50vh;
-    background-image: url(../reactor.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+
+    background: url(../reactor.jpg) center no-repeat;
+    background-color:cyan;
 }
 
 #background2{
-    background-color: cyan;
-    height:50vh;
+    height:75vh;
     background-image: url(../reactor.jpg);
     background-repeat: no-repeat;
     background-position: center;
