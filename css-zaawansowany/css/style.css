@@ -1,6 +1,8 @@
+/*
 *{
     background-color: burlywood;
 }
+*/
 p{
     background-color: blueviolet;
 }
@@ -57,6 +59,15 @@ p span:only-child{
 }
 div:empty{
     width:200px;
-    height: 600px;
+    height: 150px;
     background-color: black;
+}
+li:nth-child(odd){
+    background-color: aquamarine;
+}
+li:nth-child(even){
+    background-color:coral;
+}
+li:nth-child(even):hover{
+    background-color:darkblue;
 }
